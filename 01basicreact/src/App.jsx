@@ -2,10 +2,12 @@
 import Chai from "./Chai"
 
 const App = () => {
+
+  const username = "Baghel"
   return (
     <>
     <Chai />
-    <h1>Hello, Ashish</h1>
+    <h1>Hello, Ashish {username} </h1>
     </>
   )
 }
