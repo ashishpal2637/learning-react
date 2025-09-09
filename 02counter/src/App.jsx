@@ -9,9 +9,12 @@ const App = () => {
   // let counter = 0
 
   const addValue = () => {
-    if (counter < 20) {
-      setcounter(counter + 1)
-    }
+
+    // esa karne se ek click mai hi 4 value badhegi
+      setcounter(prevCounter => prevCounter + 1)
+      setcounter(prevCounter => prevCounter + 1)
+      setcounter(prevCounter => prevCounter + 1)
+      setcounter(prevCounter => prevCounter + 1)
   }
 
   const removeValue = () => {
